@@ -6,17 +6,17 @@ int main()
 {
 	
 	char chessboard[63];
-	chessboard[0] = 'r';
-	chessboard[7] = 'r';
-	chessboard[1] = 'n';
-	chessboard[6] = 'n';
-	chessboard[2] = 'b';
-	chessboard[5] = 'b';
-	chessboard[3] = 'q';
-	chessboard[4] = 'k';
+	chessboard[0] = 'R';
+	chessboard[7] = 'R';
+	chessboard[1] = 'N';
+	chessboard[6] = 'N';
+	chessboard[2] = 'B';
+	chessboard[5] = 'B';
+	chessboard[3] = 'Q';
+	chessboard[4] = 'K';
 	for (int i = 8; i < 16; i++)
 	{
-		chessboard[i] = 'p';
+		chessboard[i] = 'P';
 	}
 	for (int j = 16; j < 48; j++)
 	{
@@ -24,53 +24,53 @@ int main()
 	}
 	for (int k = 48; k < 56; k++)
 	{
-		chessboard[k] = 'P';
+		chessboard[k] = 'p';
 	}
-	chessboard[56] = 'R';
-	chessboard[57] = 'N';
-	chessboard[58] = 'B';
-	chessboard[59] = 'Q';
-	chessboard[60] = 'K';
-	chessboard[61] = 'B';
-	chessboard[62] = 'N';
-	chessboard[63] = 'R';
+	chessboard[56] = 'r';
+	chessboard[57] = 'n';
+	chessboard[58] = 'b';
+	chessboard[59] = 'q';
+	chessboard[60] = 'k';
+	chessboard[61] = 'b';
+	chessboard[62] = 'n';
+	chessboard[63] = 'r';
 
-	for (int a = 0; a < 8; a++)
+	for (int a = 56; a < 64; a++)
 	{
 		cout << chessboard[a] << " ";
 	}
 	cout << endl;
-	for (int b = 8; b < 16; b++)
+	for (int b = 48; b < 56; b++)
 	{
 		cout << chessboard[b] << " ";
 	}
 	cout << endl;
-	for (int c = 16; c < 24; c++)
+	for (int c = 40; c < 48; c++)
 	{
 		cout << chessboard[c] << " ";
 	}
 	cout << endl;
-	for (int d = 24; d < 32; d++)
+	for (int d = 32; d < 40; d++)
 	{
 		cout << chessboard[d] << " ";
 	}
 	cout << endl;
-	for (int e = 32; e < 40; e++)
+	for (int e = 24; e < 32; e++)
 	{
 		cout << chessboard[e] << " ";
 	}
 	cout << endl;
-	for (int f = 40; f < 48; f++)
+	for (int f = 16; f <24; f++)
 	{
 		cout << chessboard[f] << " ";
 	}
 	cout << endl;
-	for (int g = 48; g < 56; g++)
+	for (int g = 8; g <16; g++)
 	{
 		cout << chessboard[g] << " ";
 	}
 	cout << endl;
-	for (int h = 56; h < 64; h++)
+	for (int h = 0; h < 8; h++)
 	{
 		cout << chessboard[h] << " ";
 	}
